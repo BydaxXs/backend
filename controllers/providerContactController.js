@@ -30,6 +30,7 @@ async function setContact(req, res){
         assignat: true,
         provider: provider
     });
+    //ELIMINAR SET CONTACT?
     try {
         res.status(200).send({msg : "Contacto Asignado Correctamente"});
     } catch (error) {
